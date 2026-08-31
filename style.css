@@ -52,11 +52,12 @@ section{
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 .card img{
-    width: 80%;
+    width: 60%;
     height: 500px;
-    object-fit:cover;
+    object-fit:containS
     border-radius:10px;
     display: block;
+
 }
 table{
     width:100%;
