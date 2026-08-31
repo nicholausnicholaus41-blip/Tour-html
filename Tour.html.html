@@ -1,0 +1,111 @@
+
+<!DOCTYPE.html>
+<html lang="eng">
+    <head>
+        <title>Tour Guide systems</title>
+        <link rel="stylesheet"href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>TOUR GUIDE SYSTEM</h1>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about us">About us</a>
+                <a href="#destination">Destination</a>
+                <a href="#packages">Packages</a>
+                <a href="#booking">Booking</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+        <section id="home"class="hero">
+            <h2>Welcom to Tanzania</h2>
+            <p>Discover the beauty of Tanzania with professional tour guides,</p>
+            <button onclick="showmessage()">Book your Adventure</button>
+        </section>
+        <section id="about us">
+            <h2>About Us</h2>
+            <p>
+                We provide unforgettable safari adventure,mountain climbing,<br>
+                beach holidays and cultural tourism throughout Tanzania.
+            </p>
+        </section>
+        <section id="destinations">
+            <h2>Popular Destinations</h2>
+            <div class="cards">
+                <div class="card">
+                <img src="kilimanjaro.jpg.jpeg">
+                <h3>Mount Kilimanjaro</h3>
+                <p>African's Highest mountain</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="ngorongoro.jpg.jpg" alt="Ngorongoro Crater">
+                <h3>Ngorongoro Crater</h3>
+                <p>World Famous Wildlife</p>
+            </div>
+            <div class="card">
+                <img src="zanzibar.jpg.jpg">
+                <h3>zanzibar</h3>
+                <p>Beautiful Beaches</p>
+            </div>
+            <div class="card">
+                <img src="serengeti.jpg.jpg">
+                <h3>Serengeti</h3>
+                <p>Great Migration</p>
+            </div>
+            </div>
+        </section>
+        <section id="packages">
+            <h2>Tour Packages</h2>
+            <table>
+                <tr>
+                    <th>packages</th>
+                    <th>days</th>
+                    <th>prices</th>
+                </tr>
+                <tr>
+                    <td>Safari Tour</td>
+                    <td>5</td>
+                    <td>$800</td>
+                </tr>
+                <tr>
+                    <td>Kilimanjaro Climb</td>
+                    <td>7</td>
+                    <td>$1500</td>
+                </tr>
+                <tr>
+                    <td>Zanzibar Holiday</td>
+                    <td>4</td>
+                    <td>$600</td>
+                </tr>
+            </table>
+        </section>
+        <section id="booking">
+            <h2>Booking Form</h2>
+            <form id="bookingform">
+                <input type="text"placeholder="Full Name"required>
+                <input type="email"placeholder="Email"required>
+                <select required>
+                    <option>Select Destination</option>
+                    <option>Serengeti</option>
+                    <option>Mount Kilimanjaro</option>
+                    <option>Zanzibar</option>
+                    <option>Ngorongoro Crater</option>
+                </select>
+                <input type="date"required>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: info@tourguide.com</p>
+            <p>phone: +255 620246596</p>
+            <p>Location: Arusha, Tanzania</p>
+        </section>
+        <footer>
+            <p>&copy; 2026 Tour Guide system.All Rights Reserved.</p>
+        </footer>
+        <script src="script.js"></script>
+
+    </body>
+</html>
